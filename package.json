@@ -1,0 +1,36 @@
+{
+  "name": "telega",
+  "version": "1.0.0",
+  "description": "fast and simple create telegramBot on Node.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "model": "node .telega/template/model.js",
+    "command": "node .telega/template/command.js",
+    "controller": "node .telega/template/controller.js",
+    "menu": "node .telega/template/menu.js"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "deasync": "^0.1.24",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "inquirer": "^8.2.0",
+    "mongoose": "^6.1.4",
+    "node-cache": "^5.1.2",
+    "node-telegram-bot-api": "^0.56.0",
+    "nodemon": "^2.0.15"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "commands",
+    "callback",
+    "app",
+    "telegram",
+    "telega"
+  ],
+  "author": "Edhit",
+  "license": "MIT"
+}
