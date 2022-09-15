@@ -1,6 +1,7 @@
 var list = [
 	'ru', 
-	'en'
+	'en',
+	'ar'
 ]
 
 var Default = 'en'
